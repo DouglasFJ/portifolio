@@ -1,0 +1,32 @@
+<section class="w-100 vh-100 bg-image">
+    <div class="p-5 mascara">
+        <ng-template [ngIf]="admin">
+            <div class="w-100 h-100 d-flex flex-column justify-content-around">
+                <h1 class="fs-75">ADMINISTRADOR</h1>
+            </div>
+        </ng-template>
+        <ng-template [ngIf]="!admin">
+            <div class="container-fluid h-100 d-flex flex-column justify-content-between">
+                <div class="mt-3">
+                    <h1 class="fs-65">DOUGLAS FERREIRA DE JESUS</h1>
+                    <h2 class="fs-70 mt-1">Full-stack Developer</h2>
+                </div>
+                <div class="d-flex w-100 justify-content-between align-items-end">
+                    <div>
+                        <p class="fs-30 mb-60 w-600">Estagiário da Caixa Econômica Federal em TI, com expertise em desenvolvimento de software.<br>Apaixonado por programação.</p>
+                        <img class="w-600 img-logo" src="/assets/images/Logo_Portifolio.png" alt="Douglas Ferreira de Jesus Full-stack Developer logo">
+                    </div>
+                    <div>
+                        <nav class="fs-25 d-flex flex-column p-nav b-nav">
+                            <a class="mb-3 a-nav">Sobre</a>
+                            <a class="mb-3 a-nav">Experiência</a>
+                            <a class="mb-3 a-nav">Projetos</a>
+                            <a class="mb-3 a-nav">Contatos</a>
+                            <a class="a-nav">Currículo</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </div>
+</section>

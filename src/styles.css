@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'glacial-indifference';
+    src: url(assets/fonts/glacial-indifference/GlacialIndifference-Regular.otf);
+}
+* {
+    font-family: 'glacial-indifference';
+    color: #FFFFFF;
+
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-55{
+    font-size: 55px;
+}
+.fs-65{
+    font-size: 65px;
+}
+.fs-70{
+    font-size: 70px;
+}
+.fs-75{
+    font-size: 75px;
+}
