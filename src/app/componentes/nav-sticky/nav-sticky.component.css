@@ -1,0 +1,37 @@
+#nav{
+    transform: translateX(-168px);
+}
+.nav-sticky {
+    width: 168px;
+    height: 300px;
+    padding: 17px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-width: 0px 3px 3px 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 8px 0px;
+}
+
+.btn-nav {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.icon-btn {
+    width: 27px;
+    height: 4px;
+    background: #000000;
+    border-radius: 2px;
+}
+
+.r-1 {
+    transform: translateY(-6px);
+}
+
+.r-3 {
+    transform: translateY(6px);
+}

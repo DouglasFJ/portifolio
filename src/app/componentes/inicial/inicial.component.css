@@ -28,13 +28,6 @@
 .p-nav {
     padding: 0px 60px 48px 0px;
 }
-.a-nav{
-    color: #FFFFFF;
-    text-decoration: none;
-    cursor: pointer;
-}.a-nav:hover{
-    opacity: 0.70;
-}
 
 .img-logo{
     opacity: 0.35;
