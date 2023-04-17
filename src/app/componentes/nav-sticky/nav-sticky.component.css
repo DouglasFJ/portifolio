@@ -1,6 +1,4 @@
-#nav{
-    transform: translateX(-168px);
-}
+
 .nav-sticky {
     width: 168px;
     height: 300px;
@@ -10,6 +8,25 @@
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.5);
     border-radius: 0px 0px 8px 0px;
+}
+
+#nav{
+    transform: translateX(-168px);
+}#nav.active{
+    transform: translateX(0);
+}#nav.disabled{
+    transform: translateX(calc(-168px - 50px));
+}
+
+#nav.active > button > .r-1 {
+    transform: translateY(4px);
+    rotate: 45deg;
+}#nav.active > button > .r-3 {
+    transform: translateY(-4px);
+    rotate: -45deg;
+    
+}#nav.active > button > .r-2{
+    rotate: -45deg;
 }
 
 .btn-nav {
