@@ -1,0 +1,17 @@
+<section id="projetos" class="w-100 px-5">
+    <h1 class="title">Projetos</h1>
+    <div class="container-fluid">
+        <div *ngFor="let projeto of projetos" class="projeto row mb-5">
+            <div class="col-7 me-2">
+                <div class="d-flex w-100 justify-content-between align-items-center">
+                    <h2 class="fs-25">{{projeto.tituloProjeto}}</h2>
+                    <p class="fs-20">{{projeto.dataInicio}} - {{projeto.dataFim}}</p>
+                </div>
+                <p class="fs-20">
+                    {{projeto.desc}}
+                </p>
+            </div>
+            <img class="b-radius col" src="{{projeto.urlImagem}}" alt="">
+        </div>
+    </div>
+</section>

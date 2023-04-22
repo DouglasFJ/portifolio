@@ -8,6 +8,9 @@ import { PrincipalComponent } from './componentes/principal/principal.component'
 import { AdminComponent } from './componentes/admin/admin.component';
 import { SobreComponent } from './componentes/principal/sobre/sobre.component';
 import { NavStickyComponent } from './componentes/nav-sticky/nav-sticky.component';
+import { ProjetosComponent } from './componentes/principal/projetos/projetos.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { NavStickyComponent } from './componentes/nav-sticky/nav-sticky.componen
     PrincipalComponent,
     AdminComponent,
     SobreComponent,
-    NavStickyComponent
+    NavStickyComponent,
+    ProjetosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

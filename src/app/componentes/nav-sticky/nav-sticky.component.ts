@@ -10,8 +10,6 @@ export class NavStickyComponent {
   constructor() {
     document.addEventListener('scroll', () => {
       let nav: any = document.getElementById('nav')
-      console.log(window.innerHeight)
-      console.log(window.scrollY)
       if (window.scrollY < window.innerHeight) {
         
         nav.classList.remove('active')
