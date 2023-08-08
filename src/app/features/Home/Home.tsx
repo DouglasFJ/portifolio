@@ -19,7 +19,7 @@ export default function Home(){
                 </p>
                 <div className="mt-[4vh]">
                     <h5 className="text-[#7781A3]" >Tecnologias<span className="text-3xl opacity-50">Stacks</span></h5>
-                    <p className="text-2xl" >Spring Framework | Spring Batch | Angular | React | NodeJS | SCRUM</p>
+                    <p className="text-2xl 2xl:text-xl xl:text-lg lg:text-base" >Spring Framework | Spring Batch | Angular | React | NodeJS | SCRUM</p>
                 </div>
                 <div className="flex mt-[4vh]">
                     <a target="_blank" className="hover:opacity-90 mr-9" href="https://github.com/DouglasFJ" title="GitHub">
